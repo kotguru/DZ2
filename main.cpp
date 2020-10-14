@@ -23,7 +23,8 @@ public:
         return CAR::publicKey;
     }
 
-    void setPublicKeyTrinket(long publicKeyTrinket) {
+    void setPublicKeyTrinket(long publicKeyTrinket)
+    {
         CAR::publicKeyTrinket = publicKeyTrinket;
     }
 
@@ -74,8 +75,8 @@ private:
     unsigned long secretKey;
     unsigned long publicKey;
 public:
-        unsigned long getPublicKey() const
-        {
+    unsigned long getPublicKey() const
+    {
             return TRINKET::publicKey;
     }
 
