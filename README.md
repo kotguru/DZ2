@@ -9,7 +9,7 @@ Communication protocol stages:
 
 
 Sample program output:
- --- CAR: Private and public keys recorded ---
+--- CAR: Private and public keys recorded ---
  --- TRINKET: Private and public keys recorded ---
  --- REGISTRATION: creating a keychain and a car, recording a public key of a keychain in a car ---
  --- TRINKET -> CAR: connection request ---
